@@ -1,0 +1,42 @@
+# Personal exports and import workspaces
+export*/
+apple-journal-import*/
+*.zip
+*.zip.sha256
+*.part
+
+# Local reports and settings (never use personal data as test fixtures)
+/manifest.json
+/proof.json
+/report.json
+/plan.json
+/ledger.json
+/shortcut-config.json
+/import-report.json
+/source-drift.json
+last-shortcut-error.txt
+*.log
+*.har
+.env*
+token*
+credentials*
+
+# Original media should stay outside the source repository
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.heif
+*.mp4
+*.mov
+*.m4a
+
+# Generated shortcuts, caches and macOS metadata
+shortcuts/*.shortcut
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+node_modules/
+.DS_Store
+._*
